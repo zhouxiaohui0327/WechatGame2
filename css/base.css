@@ -1,0 +1,553 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family:Verdana,"Lantinghei SC","Hiragino Sans GB","Microsoft Yahei",Helvetica,arial,\5b8b\4f53,sans-serif;;
+}
+.w-100{
+    width: 100%;
+}
+
+.wrap{
+    margin: 0 auto;
+    max-width: 600px;
+    position: relative;
+    min-width: 320px;
+}
+.wrap .wrap_above{
+    position: relative;
+}
+.showbox6{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1999;
+}
+.icon_btn{
+    position: absolute;
+    z-index: 1990;
+    cursor: pointer;
+    width: 9%;
+}
+.bengbuBtn{
+    width: 11%;
+    top: 300px;
+    left: 410px;
+}
+.fuyangBtn{
+    top: 362px;
+    left: 65px;
+}
+.maanshanBtn{
+    top: 622px;
+    left: 205px;
+}
+.tianehuBtn{
+    top: 439px;
+    left: 527px;
+}
+.baoheBtn{
+    top: 500px;
+    left: 209px;
+}
+.wuhuBtn{
+    top: 708px;
+    left: 70px;
+}
+@media screen and (min-width: 320px){
+    .bengbuBtn{top: 159px;  left: 219px;}
+    .fuyangBtn{top: 192px;  left: 35px;}
+    .maanshanBtn{top: 331px;  left: 109px;}
+    .tianehuBtn{top: 234px;  left: 281px;}
+    .baoheBtn{top: 266px;  left: 111px;}
+    .wuhuBtn{top: 377px;  left: 37px;}
+}
+@media screen and (min-width: 360px){
+    .bengbuBtn{top: 180px;  left: 246px;}
+    .fuyangBtn{top: 217px;  left: 38px;}
+    .maanshanBtn{top: 372px;  left: 123px;}
+    .tianehuBtn{top: 264px;  left: 316px;}
+    .baoheBtn{top: 300px;  left: 125px;}
+    .wuhuBtn{top: 426px;  left: 43px;}
+}
+@media screen and (min-width: 375px){
+    .bengbuBtn{top: 186px;  left: 255px;}
+    .fuyangBtn{top: 226px;  left: 40px;}
+    .maanshanBtn{top: 389px;  left: 127px;}
+    .tianehuBtn{top: 275px;  left: 330px;}
+    .baoheBtn{top: 312px;  left: 130px;}
+    .wuhuBtn{top: 443px;  left: 44px;}
+}
+@media screen and (min-width: 384px){
+    .bengbuBtn{top: 191px;  left: 263px;}
+    .fuyangBtn{top: 230px;  left: 40px;}
+    .maanshanBtn{top: 398px;  left: 130px;}
+    .tianehuBtn{top: 280px;  left: 336px;}
+    .baoheBtn{top: 319px;  left: 133px;}
+    .wuhuBtn{top: 453px;  left: 45px;}
+}
+@media screen and (min-width: 414px){
+    .bengbuBtn{top: 206px;  left: 282px;}
+    .fuyangBtn{top: 248px;  left: 44px;}
+    .maanshanBtn{top: 428px;  left: 141px;}
+    .tianehuBtn{top: 303px;  left: 363px;}
+    .baoheBtn{top: 344px;  left: 144px;}
+    .wuhuBtn{top: 487px;  left: 47px;}
+}
+@media screen and (min-width: 600px){
+     .bengbuBtn{top: 300px;  left: 410px;}
+    .fuyangBtn{top: 362px;  left: 65px;}
+    .maanshanBtn{top: 622px;  left: 205px;}
+    .tianehuBtn{top: 439px;  left: 527px;}
+    .baoheBtn{top: 500px;  left: 209px;}
+    .wuhuBtn{top: 708px;  left: 70px;}
+}
+
+.showbox6 img{
+    width: 100%;
+}
+/*规则弹出框开始*/
+.floating{
+    position: absolute;
+    top: 290px;
+    z-index:1999;
+    display: none;
+}
+.floating .floating-box{
+    width: 86%;
+    height:495px;
+    background-color:#dd212f;
+    margin: 0 auto;
+    border-radius: 25px;
+    overflow: hidden;
+}
+.floating-head{
+    height: 100px;
+}
+.floating-content{
+    height: 355px;
+    background-color: #c50b19;
+}
+.floating-content .floating-text{
+    width: 90%;
+    margin: 0 auto;
+    font-size: 30px;
+    color: white;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    overflow: auto;
+}
+.floating-content .floating-text p{
+    line-height: 46px;
+}
+/*规则弹出框结束*/
+.wrap .wrap_above .button-box{
+    position: absolute;
+    bottom:0;
+    width: 100%;
+}
+.button_bottom{
+    margin:30px auto;
+}
+
+
+/*index.css  end*/
+
+
+
+/*help.css*/
+
+.bg-pic{
+    top: 0;
+    left: 0;
+}
+.showBox1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index:1999;
+}
+.showBox1 img{
+    width: 100%;
+}
+.showBox2{
+    position: absolute;
+    top: 225px;
+    left: 0;
+    z-index:1999;
+}
+.showBox2 img{
+    width: 100%;
+}
+.share_box{
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 200px;
+    z-index: 1999;
+}
+.showBox4{
+    position: absolute;
+    z-index:1999;
+    top:130px;
+}
+.showBox4 .info-wrap{
+    background-color: #dd212f;
+    width:87%;
+    margin: 0 auto;
+    height: 810px;
+    border-radius:20px;
+    overflow: hidden;
+}
+#info_form{
+    margin-top: 50px;
+    overflow: hidden;
+}
+.caption{
+    display: block;
+    margin: 0 auto;
+    font-size: 30px;
+    width: 85%;
+    line-height: 60px;
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 28px;
+    padding:0 5%;
+    background-color: #9c020e;
+    box-shadow: inset 2px 3px 10px black;
+    -webkit-box-shadow:inset 2px 3px 10px black;
+    -moz-box-shadow:inset 2px 3px 10px black;
+    color: white;
+}
+.showBox4 p{
+    text-align: center;
+    font-size: 27px;
+    color: white;
+}
+input::-webkit-input-placeholder {
+    color: white !important;
+　　}
+input:-moz-placeholder {
+    color: white !important;
+　　}
+input::-moz-placeholder {
+    color: white !important;
+　　}
+input:-ms-input-placeholder {
+    color: white !important;
+    　　}
+.big_box{
+    width: 95%;
+    margin: 0 auto;
+    border: 5px solid #9c1621;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+.choose{
+    background-color: #e7636e;
+    line-height: 50px;
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    color: white;
+    border-bottom: 5px solid #efa8ae;
+}
+.choose p{
+    line-height: 70px;
+}
+.select_box{
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+}
+.select_box select{
+    text-align: center;
+    border: none;
+    background-color: #e7636e;
+    width: 107%;
+    color: white;
+    margin-top: 10px;
+}
+.select_box select option{
+    height: 60px;
+    line-height: 60px;
+    font-size: 30px;
+    -webkit-touch-callout:unset
+}
+.btn_box{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: -40px;
+}
+.friend_box{
+    background-color: #8b1d4e;
+}
+.friend_help{
+    color: white;
+    font-size: 20px;
+    margin-left: 2%;
+    margin-bottom: 10px;
+}
+.friend{
+    width: 100%;
+}
+.friend_head{
+    width: 10%;
+    margin-left: 2%;
+    display: inline-block;
+}
+.friend_info{
+    width: 83%;
+    overflow: hidden;
+    display: inline-block;
+    background-color: white;
+    border-radius: 30px;
+    font-size: 15px;
+}
+.friend_info p{
+    line-height: 50px;
+}
+.name{
+    text-align: left;
+    float: left;
+    margin-left: 2%;
+}
+.time{
+    text-align: right;
+    float: right;
+    margin-right: 2%;
+}
+
+/*help.css end!!!!*/
+
+
+/*share.css*/
+.showBox3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.showBox3 .showBox3_text{
+    position: absolute;
+    top:470px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    text-shadow: 2px 2px 2px black;
+
+}
+.showBox3 .showBox3_text span{
+    color:#f7e215
+}
+
+/*share.css end!!!*/
+
+
+
+/*winning.css*/
+.winning_box{
+    width: 100%;
+    position: absolute;
+    top: 360px;
+}
+
+.winning_box p{
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    line-height: 50px;
+}
+/*winning.css end!!!*/
+
+
+@media screen and (min-width:320px ){
+    .button_bottom{margin:15px auto}
+    .floating{top:155px;}
+    .floating .floating-box{height: 265px;border-radius: 15px;}
+    .floating-head{height:50px;}
+    .floating-content{height:190px;}
+    .floating-content .floating-text{padding-top: 10px;padding-bottom: 10px;font-size: 15px;}
+    .floating-content .floating-text p{line-height: 28px;}
+    .share_box{top:100px;}
+    .showBox2{top:120px}
+    .showBox3 .showBox3_text{top:250px;font-size: 15px;}
+
+    .showBox4{top:70px}
+    .showBox4 .info-wrap{height:430px; border-radius: 15px;}
+    #info_form{margin-top: 20px;}
+    .caption{font-size: 15px;border-radius: 10px;  margin-bottom: 10px;line-height: 35px;}
+    .showBox4 p{font-size: 14px;}
+    .big_box{margin-top: 10px;border: 3px solid #9c1621;}
+    .choose p{line-height: 35px;}
+    .select_box select option{height: 34px;  line-height:34px;  font-size: 15px;}
+    .btn_box{bottom: -23px}
+
+    .winning_box{top:190px}
+    .winning_box p{font-size: 25px;line-height: 35px}
+
+    .friend_help{font-size: 15px}
+    .friend_info{border-radius: 10px;font-size: 10px;width: 85%}
+    .friend_info p{line-height: 30px}
+
+}
+@media screen and (min-width:360px ){
+    .button_bottom{margin:15px auto}
+    .floating{top:175px;}
+    .floating .floating-box{height: 295px;border-radius: 18px;}
+    .floating-head{height:60px;}
+    .floating-content{height:210px;}
+    .floating-content .floating-text{padding-top: 15px;padding-bottom: 15px;font-size: 17px;}
+    .floating-content .floating-text p{line-height: 29px;}
+    .share_box{top:120px;}
+    .showBox2{top:135px}
+    .showBox3 .showBox3_text{top:280px;font-size: 17px;}
+
+    .showBox4{top:82px}
+    .showBox4 .info-wrap{height:482px; border-radius: 15px;}
+    #info_form{margin-top: 20px;}
+    .caption{font-size: 20px;border-radius: 10px;  margin-bottom: 15px;line-height:40px;}
+    .showBox4 p{font-size: 16px;}
+    .big_box{margin-top: 15px;border: 4px solid #9c1621;}
+    .choose p{line-height: 40px;}
+    .select_box select option{height: 36px;  line-height:36px;  font-size: 16px;}
+    .btn_box{bottom: -23px}
+
+    .winning_box{top:210px}
+    .winning_box p{font-size: 25px;line-height: 35px}
+
+    .friend_help{font-size: 17px}
+    .friend_info{border-radius: 10px;font-size: 12px;width: 84%}
+    .friend_info p{line-height: 35px}
+}
+@media screen and (min-width:375px ){
+    .button_bottom{margin:17px auto}
+    .floating{top:180px;}
+    .floating .floating-box{height: 310px;border-radius: 18px;}
+    .floating-head{height:60px;}
+    .floating-content{height:220px;}
+    .floating-content .floating-text{padding-top: 15px;padding-bottom: 15px;font-size: 19px;}
+    .floating-content .floating-text p{line-height: 31px;}
+    .share_box{top:120px;}
+    .showBox2{top:140px}
+    .showBox3 .showBox3_text{top:295px;font-size: 17px;}
+
+    .showBox4{top:85px}
+    .showBox4 .info-wrap{height:505px; border-radius: 18px;}
+    #info_form{margin-top: 20px;}
+    .caption{font-size: 20px;border-radius: 10px;  margin-bottom: 15px;line-height:45px;}
+    .showBox4 p{font-size: 17px;}
+    .big_box{margin-top: 15px;border: 4px solid #9c1621;}
+    .choose p{line-height: 45px;}
+    .select_box select option{height: 36px;  line-height:36px;  font-size: 16px;}
+    .btn_box{bottom: -23px}
+
+    .winning_box{top:220px}
+    .winning_box p{font-size: 30px;line-height: 40px}
+
+    .friend_help{font-size: 17px}
+    .friend_info{border-radius: 10px;font-size: 12px;width: 84%}
+    .friend_info p{line-height: 35px}
+}
+@media screen and (min-width:384px ){
+    .button_bottom{margin:17px auto}
+    .floating{top:185px;}
+    .floating .floating-box{height: 315px;border-radius: 20px;}
+    .floating-head{height:65px;}
+    .floating-content{height:220px;}
+    .floating-content .floating-text{padding-top: 15px;padding-bottom: 15px;font-size: 19px;}
+    .floating-content .floating-text p{line-height: 31px;}
+    .share_box{top:120px;}
+    .showBox2{top:142px}
+    .showBox3 .showBox3_text{top:300px;font-size: 18px;}
+
+    .showBox4{top:85px}
+    .showBox4 .info-wrap{height:520px; border-radius: 18px;}
+    #info_form{margin-top: 20px;}
+    .caption{font-size: 20px;border-radius: 10px;  margin-bottom: 20px;line-height:45px;}
+    .showBox4 p{font-size: 17px;}
+    .big_box{margin-top: 20px;border: 4px solid #9c1621;}
+    .choose p{line-height: 45px;}
+    .select_box select option{height: 36px;  line-height:36px;  font-size: 16px;}
+    .btn_box{bottom: -23px}
+
+    .winning_box{top:220px}
+    .winning_box p{font-size: 30px;line-height: 40px}
+
+    .friend_help{font-size: 17px}
+    .friend_info{border-radius: 10px;font-size: 12px;width: 84%}
+    .friend_info p{line-height: 35px}
+}
+@media screen and (min-width:414px ){
+    .button_bottom{margin:20px auto}
+    .floating{top:200px;}
+    .floating .floating-box{height: 340px;border-radius: 20px;}
+    .floating-head{height:70px;}
+    .floating-content{height:240px;}
+    .floating-content .floating-text{padding-top: 17px;padding-bottom: 17px;font-size: 19px;}
+    .floating-content .floating-text p{line-height: 33px;}
+    .share_box{top:120px;}
+    .showBox2{top:155px}
+    .showBox3 .showBox3_text{top:325px;font-size: 20px;}
+
+    .showBox4{top:95px}
+    .showBox4 .info-wrap{height:560px; border-radius: 18px;}
+    #info_form{margin-top: 20px;}
+    .caption{font-size: 20px;border-radius: 10px;  margin-bottom: 20px;line-height:50px;}
+    .showBox4 p{font-size: 18px;}
+    .big_box{margin-top: 20px;border: 4px solid #9c1621;}
+    .choose p{line-height: 50px;}
+    .select_box select option{height: 40px;  line-height:40px;  font-size: 17px;}
+    .btn_box{bottom: -23px}
+
+    .winning_box{top:240px}
+    .winning_box p{font-size: 30px;line-height: 45px}
+
+    .friend_help{font-size: 19px}
+    .friend_info{border-radius: 10px;font-size: 14px;width: 84%}
+    .friend_info p{line-height: 38px}
+}
+@media screen and (min-width:600px ){
+    .button_bottom{margin:30px auto}
+    .floating{top:290px;}
+    .floating .floating-box{height: 495px;border-radius: 25px;}
+    .floating-head{height:100px;}
+    .floating-content{height:355px;}
+    .floating-content .floating-text{padding-top: 35px;padding-bottom: 35px;font-size: 30px;}
+    .floating-content .floating-text p{line-height: 46px;}
+    .share_box{top:200px;}
+    .showBox2{top:225px}
+    .showBox3 .showBox3_text{top:470px;font-size: 25px;}
+
+    .showBox4{top:130px}
+    .showBox4 .info-wrap{height:810px;border-radius: 20px;}
+    #info_form{margin-top: 50px;}
+    .caption{font-size: 30px;border-radius: 15px;  margin-bottom: 28px;line-height: 60px;}
+    .showBox4 p{font-size: 27px;}
+    .big_box{margin-top: 30px;border: 5px solid #9c1621;}
+    .choose p{line-height: 50px;}
+    .select_box select option{height: 60px;  line-height: 60px;  font-size: 30px;}
+    .btn_box{bottom: -40px}
+
+    .winning_box{top:360px}
+    .winning_box p{font-size: 35px;line-height: 50px}
+
+    .friend_help{font-size: 20px}
+    .friend_info{border-radius: 30px;font-size: 15px;width: 84%}
+    .friend_info p{line-height: 50px}
+}
+
+#d-mask{
+    background: #000;
+    opacity: .6;
+    z-index: 1993;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
